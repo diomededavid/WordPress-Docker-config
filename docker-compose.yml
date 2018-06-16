@@ -17,7 +17,7 @@ services:
     networks:
       - back
   db:
-    image: mysql
+    image: mysql:latest
     ports:
       - 3306:3306
     restart: always
